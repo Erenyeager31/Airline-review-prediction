@@ -1,0 +1,42 @@
+.gauge-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    border-radius: 10px;
+    height: fit-content;
+  }
+  
+  .gauge-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%;
+  }
+  
+  .sentiment-details {
+    margin-top: 20px;
+  }
+
+  
+  h2, h4 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h4 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
